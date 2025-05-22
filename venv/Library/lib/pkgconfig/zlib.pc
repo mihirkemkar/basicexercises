@@ -1,0 +1,13 @@
+prefix=E:/SOFTWARES/basicexercises/venv/Library
+exec_prefix=E:/SOFTWARES/basicexercises/venv/Library
+libdir=E:/SOFTWARES/basicexercises/venv/Library/lib
+sharedlibdir=E:/SOFTWARES/basicexercises/venv/Library/lib
+includedir=E:/SOFTWARES/basicexercises/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
